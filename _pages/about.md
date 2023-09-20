@@ -31,7 +31,8 @@ capabilities.
 I also spent a summer developing <a href="https://cran.r-project.org/web/packages/rminizinc/index.html">
 rminizinc</a>: an interface
 to MiniZinc in R, advised by Prof. <a href="https://www.cs.uwyo.edu/~larsko/">
-Lars Kotthoff</a> and Mr. <a href="https://hwborchers.lima-city.de/"> Hans W. Borchers</a>.
+Lars Kotthoff</a> , Mr. <a href="https://hwborchers.lima-city.de/"> Hans W. Borchers</a> and
+Prof. <a href="https://research.monash.edu/en/persons/guido-tack">Guido Tack</a>.
 
 Prior to GE, I pursued MSc. Mathematics from BITS Pilani. I did my Master's thesis
 at TU Munich, advised by Prof. <a href="https://biomedical-big-data.de/authors/markus_list/">
