@@ -7,4 +7,13 @@ importance: 3
 category: work
 ---
 
-The static X-Rays can damage healthy cancer cells on the edge of tumor along with the cancerous cells due to the contraction and expansion of lungs. This can be addressed by using a dynamically adjustable X-Ray projection that uses the depth information during respirtation. The aim of this project was to create a respiratory monitoring system to detect the depth of lungs. The source code is available on <a href="https://github.com/acharaakshit/Tracking-of-Lung-cancer">Github</a>.
+The static X-Rays can damage healthy cancer cells on the edge of tumor along with the cancerous cells due to the contraction and expansion of lungs. This can be addressed by using a dynamically adjustable X-Ray projection that uses the depth information during respiration. The aim of this project was to create a respiratory monitoring system to detect the depth of lungs.
+This was addressed as a classification problem taking as an input, the video frames captured by
+the Microsoft Kinect RGB-Depth cameras. The prior research has shown these depth cameras to be
+efficient in estimating the respiratory motion with minimal errors. The frames were manually
+annotated into 3 categories namely, below average, average and above average respiration. The 
+period of contraction and expansion is typically higher in above average respiration allowing 
+for a larger time window to project the X-rays during the expansion to avoid harm to the healthy
+cells. This time window is less in the average respiration and even lesser in the below average respiration. Therefore, the accuracy of projection needs to be high in these cases. Utilizing the
+VGG-16 based classifier, the classification accuracy on the test data was found to be 86.5%.
+The source code is available on <a href="https://github.com/acharaakshit/Tracking-of-Lung-cancer">Github</a>.
