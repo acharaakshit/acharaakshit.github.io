@@ -15,21 +15,94 @@ microRNAs (miRNAs). miRNAs bind to the messenger RNAs and lead to their degradat
 causing repression. There are various tools which use the sequence information of miRNAs and
 mRNAs to predict the miRNA targets.
 
-These tools result in a lot of false positives, presumably because they are not condition-specific
-or tissue-specific. Since there is no universal standard to benchmark these tools, we have
+These tools result in a lot of false positives, presumably because they are not condition-specific or tissue-specific. Since there is no universal standard to benchmark these tools, we have
 evaluated these tools by creating regression models on gene and miRNA expression data from
 specific conditions like breast cancer and pan-cancer and compared the predictions from
 various tools like TargetScan, mircode, miRWalk, miRDB, PITA miRTarBase and miRanda,
-against the results from regression models built on the combined miRNA-gene expression data.
+against the results from the linear and regularized regression models built on the combined miRNA-gene expression data.
+The table shows some common features used by these tools to determine miRNA targets.
+
+
+<table>
+  <tr>
+    <th>TOOLS/FEATURES</th>
+    <th>TARGET-SITE ABUNDANCE</th>
+    <th>SITE CONSERVATION</th>
+    <th>SITE ACCESSIBILITY</th>
+    <th>SEED MATCH</th>
+    <th>FREE ENERGY</th>
+  </tr>
+  <tr>
+    <td>TargetScan</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+  </tr>
+  <tr>
+    <td>PITA</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+  </tr>
+    <tr>
+    <td>miRcode</td>
+    <td></td>
+    <td>&#10004;</td>
+    <td></td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+  </tr>
+    <tr>
+    <td>miRanda</td>
+    <td></td>
+    <td>&#10004;</td>
+    <td></td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+  </tr>
+    <tr>
+    <td>miRDB</td>
+    <td></td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+    <td>&#10004;</td>
+  </tr>
+</table>
+
+
 Two approaches were used for benchmarking. In the first approach, binarized regression
 coefficients were compared with binarized binding sites. The tools used in this approach were
 TargetScan, miRcode, miRTarBase and miRTarBase7. In the second approach, the binarized
 regression coefficients were compared with the binarized confidence scores. The tools used in
-this approach were TargetScan, miRanda, miRWalk, miRDB and PITA. An ensemble method
-was also developed for target prediction by combining the scores from all the tools.
-We observed that TargetScan had slightly higher precision and miRcode had significantly better
-sensitivity and worse specificity than other tools in the first approach discussed above. In the
-results obtained by using the second approach and comparing the coefficients from ridge
+this approach were TargetScan, miRanda, miRWalk, miRDB and PITA. 
+
+<table>
+    <tr>
+        <td>
+            <div class="img">
+                {% include figure.html path="assets/img/gt_binding_sites.png" title="example image" class="img-fluid rounded z-depth-1" %}
+            </div>
+            <div class="caption">
+                Approach 1 (GT vs Binding Sites)
+            </div>
+        </td>
+        <td>
+            <div class="img">
+                {% include figure.html path="assets/img/gt_cs.png" title="example image" class="img-fluid rounded z-depth-1" %}
+            </div>
+            <div class="caption">
+                Approach 2 (GT vs Confidence Scores)
+            </div>
+        </td>
+    </tr>
+</table>
+
+An ensemble method was also developed for target prediction by combining the scores from all the tools. We observed that TargetScan had slightly higher precision and miRcode had significantly better sensitivity and worse specificity than other tools in the first approach discussed above. In the results obtained by using the second approach and comparing the coefficients from ridge
 regression with the confidence scores, we observed that the precision of miRDB was overall the
 highest and increased steadily from low to high confidence scores. The miRDB scoring method
 was thus the only one with a continuous behavior.
@@ -42,17 +115,3 @@ containing experimentally validated interactions and ensemble method which provi
 predictions.
 
 
-
-<div class="img">
-        {% include figure.html path="assets/img/gt_binding_sites.png" title="example image" class="img-fluid rounded z-depth-1" %}
-</div>
-<div class="caption">
-    Approach 1 (GT vs Binding Sites)
-</div>
-
-<div class="img">
-        {% include figure.html path="assets/img/gt_cs.png" title="example image" class="img-fluid rounded z-depth-1" %}
-</div>
-<div class="caption">
-    Approach 2 (GT vs Confidence Scores)
-</div>

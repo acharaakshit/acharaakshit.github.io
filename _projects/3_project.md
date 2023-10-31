@@ -15,5 +15,27 @@ annotated into 3 categories namely, below average, average and above average res
 period of contraction and expansion is typically higher in above average respiration allowing 
 for a larger time window to project the X-rays during the expansion to avoid harm to the healthy
 cells. This time window is less in the average respiration and even lesser in the below average respiration. Therefore, the accuracy of projection needs to be high in these cases. Utilizing the
-VGG-16 based classifier, the classification accuracy on the test data was found to be 86.5%.
+VGG-16 based classifier, pretrained on imagenet, the classification accuracy on the test data was found to be 86.5%.
+<div class="row justify-content-center">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        <div class="img">
+            {% include figure.html path="assets/img/vgg_16.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="caption">
+            Network architecture
+        </div>
+    </div>
+</div>
+
+<div class="row justify-content-center">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        <div class="img">
+            {% include figure.html path="assets/img/transfer-learning.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="caption">
+            Transfer Learning (utilizing imagenet)
+        </div>
+    </div>
+</div>
+
 The source code is available on <a href="https://github.com/acharaakshit/Tracking-of-Lung-cancer">Github</a>.
