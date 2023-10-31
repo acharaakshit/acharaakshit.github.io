@@ -15,13 +15,41 @@ microRNAs (miRNAs). miRNAs bind to the messenger RNAs and lead to their degradat
 causing repression. There are various tools which use the sequence information of miRNAs and
 mRNAs to predict the miRNA targets.
 
-These tools result in a lot of false positives, presumably because they are not condition-specific or tissue-specific. Since there is no universal standard to benchmark these tools, we have
-evaluated these tools by creating regression models on gene and miRNA expression data from
-specific conditions like breast cancer and pan-cancer and compared the predictions from
+These tools result in a lot of false positives, presumably because they are not condition-specific or tissue-specific. Since there is no universal standard to benchmark these tools, we have evaluated these tools by creating regression models on gene and miRNA expression data from specific conditions like breast cancer and pan-cancer and compared the predictions from
 various tools like TargetScan, mircode, miRWalk, miRDB, PITA miRTarBase and miRanda,
 against the results from the linear and regularized regression models built on the combined miRNA-gene expression data.
-The table shows some common features used by these tools to determine miRNA targets.
 
+<table border="1">
+        <tr>
+            <th>Regression</th>
+            <th>Loss/Objective Function</th>
+        </tr>
+        <tr>
+            <td>Linear</td>
+            <td> 
+                MSE = (1/N) * Σᵢ(yᵢ - βxᵢ)²
+            </td>
+        </tr>
+        <tr>
+            <td>Lasso</td>
+            <td>
+                MSE + λ₁ * Σⱼ|βⱼ|
+            </td>
+        </tr>
+        <tr>
+            <td>Ridge</td>
+            <td>
+                MSE + λ₂ * Σⱼ||βⱼ||²
+            </td>
+        </tr>
+        <tr>
+            <td>Elastic Net</td>
+            <td>
+                MSE + λ₁ * Σⱼ|βⱼ| + λ₂ * Σⱼ||βⱼ||²
+            </td>
+        </tr>
+    </table>
+The table shows the regression models used to compute the correlation between gene-miRNA expression.<br/><br/>
 
 <table>
   <tr>
@@ -73,8 +101,8 @@ The table shows some common features used by these tools to determine miRNA targ
     <td>&#10004;</td>
   </tr>
 </table>
-
-
+The table shows some common features used by these tools to determine miRNA targets.
+<br/><br/>
 Two approaches were used for benchmarking. In the first approach, binarized regression
 coefficients were compared with binarized binding sites. The tools used in this approach were
 TargetScan, miRcode, miRTarBase and miRTarBase7. In the second approach, the binarized
