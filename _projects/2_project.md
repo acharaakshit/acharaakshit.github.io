@@ -34,15 +34,6 @@ The source code is available on <a href="https://github.com/acharaakshit/Structu
         border: 1px solid #ddd;
         text-align: left;
     }
-
-    th {
-        background-color: #f2f2f2;
-    }
-
-    .smoothing-methods {
-        font-weight: bold;
-        color: #555; /* Change color for smoothing methods */
-    }
 </style>
 
 <h3>Signal Processing and Smoothing Methods</h3>
@@ -67,12 +58,12 @@ The source code is available on <a href="https://github.com/acharaakshit/Structu
     <tr>
         <td>
             <ul>
-                <li class="smoothing-methods">Moving Average</li>
-                <li class="smoothing-methods">Exponential Smoothing</li>
-                <li class="smoothing-methods">Trend Exponential Smoothing</li>
-                <li class="smoothing-methods">Trend and Seasonal Exponential Smoothing</li>
-                <li class="smoothing-methods">ARMA (AutoRegressive Moving Average)</li>
-                <li class="smoothing-methods">ARIMA (AutoRegressive Integrated Moving Average)</li>
+                <li>Moving Average</li>
+                <li>Exponential Smoothing</li>
+                <li>Trend Exponential Smoothing</li>
+                <li>Trend and Seasonal Exponential Smoothing</li>
+                <li>ARMA (AutoRegressive Moving Average)</li>
+                <li>ARIMA (AutoRegressive Integrated Moving Average)</li>
             </ul>
         </td>
     </tr>
