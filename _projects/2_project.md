@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Structural Health Monitoring
-description: Time-series forecasting to determine structural health
+title: SHM
+description: Time-series analysis of structural sensor data
 img: assets/img/shm_pfolio.png
 importance: 2
 category: work
@@ -13,6 +13,73 @@ response measurements from an array of sensors. The damage senstitive
 features are extracted from these measurements and statistically analysed.
 The source code is available on <a href="https://github.com/acharaakshit/Structural-Health-Monitoring">Github</a>.
 
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        padding: 8px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    .smoothing-methods {
+        font-weight: bold;
+        color: #555; /* Change color for smoothing methods */
+    }
+</style>
+
+<h3>Signal Processing and Smoothing Methods</h3>
+
+<table>
+    <tr>
+        <th>Signal Processing Methods</th>
+    </tr>
+    <tr>
+        <td>
+            <ul>
+                <li>Custom Recursive Cooley FFT</li>
+                <li>Cooley Tukey FFT (from numpy fft library)</li>
+                <li>Haar Wavelet-based Transforms</li>
+                <li>Signal Reconstruction and Denoising using DWT and IDWT</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <th>Methods of Smoothing</th>
+    </tr>
+    <tr>
+        <td>
+            <ul>
+                <li class="smoothing-methods">Moving Average</li>
+                <li class="smoothing-methods">Exponential Smoothing</li>
+                <li class="smoothing-methods">Trend Exponential Smoothing</li>
+                <li class="smoothing-methods">Trend and Seasonal Exponential Smoothing</li>
+                <li class="smoothing-methods">ARMA (AutoRegressive Moving Average)</li>
+                <li class="smoothing-methods">ARIMA (AutoRegressive Integrated Moving Average)</li>
+            </ul>
+        </td>
+    </tr>
+</table>
+
+<br/><br/>
+
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/bexp.png" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -21,7 +88,7 @@ The source code is available on <a href="https://github.com/acharaakshit/Structu
 <div class="caption">
     Basic Exponential Smoothing
 </div>
-
+<br/><br/>
 <div class="row justify-content-sm-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/bma.png" title="example image" class="img-fluid rounded z-depth-1" %}
