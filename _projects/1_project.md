@@ -2,7 +2,7 @@
 layout: page
 title: RMiniZinc
 description: An Interface to MiniZinc in R
-img: assets/img/GSoC-Vertical.png
+img: assets/img/rminizinc_logo.png
 importance: 1
 category: work
 ---
