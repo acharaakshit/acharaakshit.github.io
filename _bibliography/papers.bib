@@ -6,11 +6,25 @@
   title={Revealing the Underlying Patterns: Investigating Dataset Similarity, Performance, and Generalization},
   author={Achara, Akshit and Ram Krishna Pandey},
   journal={arXiv preprint arXiv:2308.03580},
-  year={2023}
+  preview  = {dtsim_logo.png},
+  year={2023},
+  abstract={Supervised deep learning models require significant amount of labeled data to achieve
+an acceptable performance on a specific task. However, when tested on unseen data,
+the models may not perform well. Therefore, the models need to be trained with
+additional and varying labeled data to improve the generalization. In this work, our goal
+is to understand the models, their performance and generalization. We establish
+image-image, dataset-dataset, and image-dataset distances to gain insights into the
+model's behavior. Our proposed distance metric when combined with model
+performance can help in selecting an appropriate model/architecture from a pool of
+candidate architectures. We have shown that the generalization of these models can
+be improved by only adding a small number of unseen images (say 1, 3 or 7) into the
+training set. Our proposed approach reduces training and annotation costs while
+providing an estimate of model performance on unseen data in dynamic environments.}
 }
 
 @article{PANDEY2024122785,
 title = {TrueDeep: A systematic approach of crack detection with less data},
+bibtex_show={true},
 journal = {Expert Systems with Applications},
 volume = {242},
 pages = {122785},
@@ -31,5 +45,6 @@ abstract = {Supervised and semi-supervised semantic segmentation algorithms requ
   preview  = {coredeep_logo.png},
   author={Pandey, Ram Krishna and Achara, Akshit},
   journal={arXiv preprint arXiv:2209.04648},
-  year={2022}
+  year={2022},
+  abstract={Automatically detecting or segmenting cracks in images can help in reducing the cost of maintenance or operations. Detecting, measuring and quantifying cracks for distress analysis in challenging background scenarios is a difficult task as there is no clear boundary that separates cracks from the background. Some of the other perceptually noted challenges with the images are variations in color, intensity, depth, blur, motion-blur, orientation, region of interest (ROI) for the defect, scale, illumination, backgrounds, etc. These variations occur across (crack inter-class) and within images (crack intra-class variabilities). In this work, we have proposed a stochastic width (SW) approach to reduce the effect of these variations. Our proposed approach improves detectability and significantly reduces false positives and negatives. We have measured the performance of our algorithm objectively in terms of mean intersection over union (mIoU) and subjectively in terms of perceptual quality.}
 }
