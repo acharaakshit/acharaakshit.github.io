@@ -92,20 +92,31 @@ Firstly, a principal component is selected in the ascending order of priority. O
 <div class="row justify-content-center">
     <div class="col-sm mt-3 mt-md-0 text-center">
         <div class="img">
+            {% include figure.html path="assets/img/td_step4.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        </div>
+        <div class="caption">
+            The figure shows the algorithm for selection of images from each of the bins obtained from step 3. Initially, the parameters are defined and the selection percentage decreases as we iterate from the first to the last bin. All the images are combined after selection to form the representative dataset.
+        </div>
+    </div>
+</div>
+
+
+We select the representative images from the distribution in a specific dimension. It is to be noted that selecting samples/data points from multiple principal components combined doesn't aid in identifying separate images. For example, the images in one component might be far away but can be closer in another component. Therefore, we give priority of image selection in descending order of principal components. This means that the highest number of samples
+can be selected from the first principal component followed by the other principal components.
+
+<div class="row justify-content-center">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        <div class="img">
             {% include figure.html path="assets/img/td_step4.gif" title="example image" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="caption">
-            The figures shows all the points from the nth principal component in the format of <x,x>. Representative data samples
+            The figure shows all the points from the nth principal component in the format of <x,x>. Representative data samples
             are selected in such a way that is resembles the overall distribution. Blue coloured points are validation samples.
         </div>
     </div>
 </div>
 
-We select the representative images from the distribution in a specific dimension. It is to be noted that selecting samples/data points from multiple principal components combined doesn't aid in identifying separate images. For example, the images in one component might be far away but can be closer in another component. Therefore, we give priority of image selection in descending order of principal components. This means that the highest number of samples
-can be selected from the first principal component followed by the other principal components.
-
-<h6>Step 4:</h6> Train your model using the representative samples and the corresponding labels.
-<h6>Step 5:</h6> Enjoy!
+<h6>Step 5:</h6> Your representative dataset is ready. Enjoy!
 
 
 <h2><center>Under Work!!!</center></h2>
