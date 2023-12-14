@@ -1010,3 +1010,14 @@ nav[data-toggle="toc"] {
   }
 }
 
+.caption {
+  position: flex;
+  bottom: 0;
+  width: auto;
+  background-color: rgba(255, 255, 255, 0.377);
+  padding: 10px;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 14px;
+  color: #1a1a1a;
+}

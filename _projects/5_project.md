@@ -3,8 +3,8 @@ layout: page
 title: COV-AID
 description: Implementing Social Distancing through Technology
 img: assets/img/covaid.png
-importance: 3
-category: fun
+importance: 6
+category: work
 ---
 
 We developed an application to montior real-time crowd at public and private organizations like

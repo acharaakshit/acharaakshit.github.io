@@ -3,8 +3,8 @@ layout: page
 title: truedeep
 description: An approach to perform supervised crack detection using less data
 img: assets/img/truedeep_logo.png
-importance: 3
-category: fun
+importance: 1
+category: work
 ---
 
 <head>
@@ -49,7 +49,7 @@ of 2D vision based tasks, we refer to the corresponding approaches as true image
             {% include figure.html path="assets/img/td_step1.png" title="example image" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="caption">
-            The figures shows input images, feature extractor and the extracted feature vectors (from left to right)
+            The figure shows input images, feature extractor and the extracted feature vectors (from left to right)
         </div>
     </div>
 </div>
@@ -64,7 +64,7 @@ depends on the use case.
             {% include figure.html path="assets/img/td_step2.png" title="example image" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="caption">
-            The figures shows feature vectors, PCA block and the corresponding low dimensional representations (from left to right)
+            The figure shows feature vectors, PCA block and the corresponding low dimensional representations (from left to right)
         </div>
     </div>
 </div>
@@ -79,7 +79,7 @@ We obtain a low dimensional representations of the feature vectors obtained from
             {% include figure.html path="assets/img/td_step3.png" title="example image" class="img-fluid rounded z-depth-1" %}
         </div>
         <div class="caption">
-            The figures shows all the points from the nth principal component in the format of <x,x>. Representative data samples
+            The figure shows all the points from the nth principal component in the format of <x,x>. Representative data samples
             are selected in such a way that is resembles the overall distribution. Blue coloured points are validation samples.
         </div>
     </div>

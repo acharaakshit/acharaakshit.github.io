@@ -3,7 +3,7 @@ layout: page
 title: mirtargetbenchmark
 description: R package aimed towards benchmarking miRNA target prediction tools
 img: assets/img/mirtargetbenchmark_logo.png
-importance: 3
+importance: 4
 category: fun
 ---
 

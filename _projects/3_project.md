@@ -3,7 +3,7 @@ layout: page
 title: Depth based Classification
 description: Tracking the respiratory patterns for adjustable X-Rays
 img: assets/img/resp.png
-importance: 3
+importance: 2
 category: work
 ---
 

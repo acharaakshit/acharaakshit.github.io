@@ -3,7 +3,7 @@ layout: page
 title: SHM
 description: Time-series analysis of structural sensor data
 img: assets/img/shm_pfolio.png
-importance: 2
+importance: 5
 category: work
 ---
 
