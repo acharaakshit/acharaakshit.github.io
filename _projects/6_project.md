@@ -26,7 +26,7 @@ category: work
     </style>
 </head>
 
-In this discussion, we present an overview on the true image selection algorithms discussed in the <a href="https://authors.elsevier.com/a/1iDcb3PiGTPj8i">published article</a>.
+In this discussion, we present an overview of the true image selection algorithms discussed in the <a href="https://authors.elsevier.com/a/1iDcb3PiGTPj8i">published article</a>.
 
 
  <div class="info-box">
