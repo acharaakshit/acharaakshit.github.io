@@ -87,7 +87,7 @@ In this section, we compare the predictions of models trained using three differ
     </tr>
   </table>
 <br>
-The figure below show that that there is a significant improvement in the crack connectivity in the stochastic width approach results.
+The figure below show that that there is a significant improvement in the crack connectivity in the stochastic width approach results. The width stochasticity introduced in the input data space improves the recall of the resultant trained model significantly as compared to the Baseline and FR techniques.
 
 <div class="row justify-content-center">
     <div class="col-sm mt-3 mt-md-0 text-center">
@@ -99,6 +99,3 @@ The figure below show that that there is a significant improvement in the crack 
         </div>
     </div>
 </div>
-
-
- <h3><center><b>Under Work!!!</b></center></h3>

@@ -117,6 +117,3 @@ can be selected from the first principal component followed by the other princip
 </div>
 
 <h6>Step 5:</h6> Your representative dataset is ready. Enjoy!
-
-
-<h2><center>Under Work!!!</center></h2>
