@@ -101,7 +101,7 @@ Firstly, a principal component is selected in the ascending order of priority. O
 </div>
 
 
-We select the representative images from the distribution in a specific dimension. It is to be noted that selecting samples/data points from multiple principal components combined doesn't aid in identifying separate images. For example, the images in one component might be far away but can be closer in another component. Therefore, we give priority of image selection in descending order of principal components. This means that the highest number of samples
+We select the representative images from the distribution in a specific principal component. It is to be noted that selecting samples/data points from multiple principal components combined doesn't aid in identifying separate images. For example, the images in one component might be far away but can be closer in another component. Therefore, we give priority of image selection in descending order of principal components. This means that the highest number of samples
 can be selected from the first principal component followed by the other principal components.
 
 <div class="row justify-content-center">
