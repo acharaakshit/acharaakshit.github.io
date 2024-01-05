@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Depth based Classification
-description: Tracking the respiratory patterns for adjustable X-Rays
+title: RGB-D Respiratory Motion
+description: Analyzing the respiratory patterns for adjustable X-Rays
 img: assets/img/resp.png
 importance: 5
 category: work

@@ -3,7 +3,7 @@ layout: page
 title: CoreDeep
 description: Improving Crack Detection Algorithms Using Width Stochasticity
 img: assets/img/coredeep_logo.png
-importance: 3
+importance: 2
 category: work
 ---
 
