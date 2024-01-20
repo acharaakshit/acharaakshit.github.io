@@ -1,6 +1,7 @@
 ---
 layout: page
-title: miRNA Target Prediction
+title: miRNA Target
+description: R package aimed towards benchmarking miRNA target prediction tools
 img: assets/img/mirtargetbenchmark_logo.png
 importance: 4
 category: fun

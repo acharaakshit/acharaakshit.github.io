@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Time Series Analysis
+title: Time Series
+description: Time-series analysis of structural sensor data
 img: assets/img/shm_pfolio.png
 importance: 6
 category: work

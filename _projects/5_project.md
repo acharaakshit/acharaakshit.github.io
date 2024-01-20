@@ -1,6 +1,7 @@
 ---
 layout: page
 title: COV-AID
+description: Implementing Social Distancing through Technology
 img: assets/img/covaid.png
 importance: 7
 category: work
