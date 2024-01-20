@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Clinical Language Processing
-description: Insights into the applications of NLP in Cancer Care
+title: Clinical NLP
 img: assets/img/nlp_main.png
 importance: 3
 category: work

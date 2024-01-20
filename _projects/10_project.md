@@ -1,7 +1,6 @@
 ---
 layout: page
-title: 3D MRI Segmentation
-description: An interactive tool for MRIs with 3D Segmentation Overlay.
+title: 3D MRI Viewer
 img: assets/img/pixel_classification.png
 importance: 3
 category: work

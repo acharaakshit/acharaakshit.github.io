@@ -1,7 +1,6 @@
 ---
 layout: page
 title: RMiniZinc
-description: An Interface to MiniZinc in R
 img: assets/img/rminizinc_logo.png
 importance: 4
 category: work

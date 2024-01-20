@@ -1,7 +1,6 @@
 ---
 layout: page
-title: RGB-D Respiratory Motion
-description: Analyzing the respiratory patterns for adjustable X-Rays
+title: RGB-D Motion Classification
 img: assets/img/resp.png
 importance: 5
 category: work
