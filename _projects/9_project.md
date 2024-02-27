@@ -55,4 +55,7 @@ on the relationship with model and its generalization (see article for more deta
 </p></div>  
 <br>
 
-<h1>Coming Soon!</h1>
+We will discuss the distance computation approach proposed in the article. The idea is to obtain the feature representations of each image from the two datasets in consideration, namely primary and secondary. The feature representations are flattened and passed into a dimensionality 
+reduction process to obtain low dimensional representations of each image from the two datasets. A distance matrix can be obtained by comparing each image from one dataset against that of all the images from the other dataset. The sum of all the distance of an image from the other dataset is referred as Idist (image-dataset distance) and the mean of Idist of all images in a dataset from another dataset is referred as Odist (dataset-dataset distance).
+
+<h1>To be updated!</h1>

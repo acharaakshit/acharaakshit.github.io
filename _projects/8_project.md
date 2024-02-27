@@ -26,4 +26,9 @@ ambiguity in medication names needs to be resolved before placing the order as i
 emergency medications. Text standardization utilizing multiple NLP techniques like Named Entity Recognition and Entity Linking can help 
 alleviate these issues.
 
-<h1>Coming Soon!</h1>
+<h3><b>Clinical Reasoning</b></h3>
+Medical text comprises of several logical, temporal and spatial statements. To recommend a suitable treatment for a patient, it becomes necessary to perform reasoning with correct evidence. Therefore, a system comprising of classification, linking and generation can be used to improve the 
+precision of clinical assistance. Embedding medical knowledge into the models or the overall pipelines can help tackle the common issues in AI
+based clinical assistance.
+
+<h1>To be updated!</h1>
