@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.ge.com/research/'>GE Research, Bangalore</a>
+subtitle: <a href='https://www.gehealthcare.com/about/about-ge-healthcare-systems'>GE Healthcare, Bangalore</a>
 
 profile:
   align: right
@@ -19,8 +19,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Research Engineer working with the Industrial AI team
-at GE Research, Bangalore, India. I am primarily working on 
+I am a Research Engineer working with the AI Research team
+at GE Healthcare, Bangalore, India. I am primarily working on 
 developing NLP techniques for patient reports to aid in
 timeline based patient journeys.
 
@@ -39,7 +39,6 @@ at TU Munich, advised by Prof. <a href="https://biomedical-big-data.de/authors/m
 Markus List</a>, where I worked on developing machine 
 learning frameworks for benchmarking sequence based miRNA tools.
 
-I also did two summer internships at GE Healthcare, working on real-time montioring applications
-and fast MRI scans respectively.
+I also did two summer internships at GE Healthcare, working on real-time montioring applications and fast MRI scans respectively.
 
 In my spare time, I play sports (primarily Cricket and Football), listen to music and catch-up with my friends.
