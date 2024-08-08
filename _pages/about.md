@@ -42,3 +42,5 @@ learning frameworks for benchmarking sequence based miRNA tools.
 I also did two summer internships at GE Healthcare, working on real-time montioring applications and fast MRI scans respectively.
 
 In my spare time, I play sports (primarily Cricket and Football), listen to music and catch-up with my friends.
+
+<b style='color:red;'>I am always looking for research collaboration opportunities on robust, data-efficient and interpretable deep learning. Feel free to email me!</b>
