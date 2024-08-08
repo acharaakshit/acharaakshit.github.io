@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2024-03-21
+date: 2024-06-25
 inline: true
 related_posts: false
 ---
 
-I am always looking for research collaboration opportunities on robust, data-efficient and interpretable deep learning. Feel free to email me!
+Our paper entitled "Efficient Biomedical Entity Linking: Clinical Text Standardization with Low-Resource Techniques" has been accepted at the BIONLP 2024 and Shared Tasks Workshop @ ACL 2024.
