@@ -19,14 +19,12 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Research Engineer working with the AI Research team
-at GE Healthcare, Bangalore, India. I am primarily working on 
+I am doctoral candidate associated with the <a href="https://www.kclmmag.org/home">MMAG</a> at the King's College London. My interests broadly lie in all aspects of deep learning. I am currently working on the analysis of fairness of deep learning methods for medical imaging.
+
+Previously, I was a Research Engineer working with the AI Research team
+at GE Healthcare, Bangalore, India where I primarily working on 
 developing NLP techniques for patient reports to aid in
 timeline based patient journeys.
-
-My research interests broadly lie in reducing complexity of deep
-learning systems without compromising the generalization
-capabilities.
 
 I also spent a summer developing <a href="https://cran.r-project.org/web/packages/rminizinc/index.html">
 rminizinc</a>: an interface
@@ -39,8 +37,6 @@ at TU Munich, advised by Prof. <a href="https://biomedical-big-data.de/authors/m
 Markus List</a>, where I worked on developing machine 
 learning frameworks for benchmarking sequence based miRNA tools.
 
-I also did two summer internships at GE Healthcare, working on real-time montioring applications and fast MRI scans respectively.
-
 In my spare time, I play sports (primarily Cricket and Football), listen to music and catch-up with my friends.
 
-<b style='color:red;'>I am always looking for research collaboration opportunities on robust, data-efficient and interpretable deep learning. Feel free to email me!</b>
+<b style='color:red;'>I am always looking for research collaboration on interesting problems in deep learning. Feel free to email me!</b>
