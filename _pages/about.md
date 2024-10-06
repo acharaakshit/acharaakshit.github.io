@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.gehealthcare.com/about/about-ge-healthcare-systems'>GE Healthcare, Bangalore</a>
+subtitle: <a href='https://www.kcl.ac.uk/'>King's College London, UK</a>
 
 profile:
   align: right
