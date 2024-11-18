@@ -19,24 +19,13 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am doctoral candidate associated with the <a href="https://www.kclmmag.org/home">MMAG</a> at the King's College London. My interests broadly lie in all aspects of deep learning. I am currently working on the analysis of fairness of deep learning methods for medical imaging.
+I am a doctoral candidate associated with the <a href="https://www.kclmmag.org/home">Motion Modelling & Analysis Group</a> at King's College London. My interests broadly lie in all aspects of deep learning. I am currently working on fairness in deep learning with special focus on medical imaging.
 
-Previously, I was a Research Engineer working with the AI Research team
-at GE Healthcare, Bangalore, India where I primarily working on 
-developing NLP techniques for patient reports to aid in
-timeline based patient journeys.
-
-I also spent a summer developing <a href="https://cran.r-project.org/web/packages/rminizinc/index.html">
-rminizinc</a>: an interface
-to MiniZinc in R, advised by Prof. <a href="https://www.cs.uwyo.edu/~larsko/">
-Lars Kotthoff</a> , Mr. <a href="https://hwborchers.lima-city.de/"> Hans W. Borchers</a> and
-Prof. <a href="https://research.monash.edu/en/persons/guido-tack">Guido Tack</a>.
+Previously, I was a Research Engineer at GE Healthcare, Bangalore, India where I primarily worked on NLP approaches for timeline based report summarisation.
 
 Prior to GE, I pursued MSc. Mathematics from BITS Pilani. I did my Master's thesis
-at TU Munich, advised by Prof. <a href="https://biomedical-big-data.de/authors/markus_list/">
-Markus List</a>, where I worked on developing machine 
-learning frameworks for benchmarking sequence based miRNA tools.
+at TU Munich where I worked on developing regression based approaches for benchmarking sequence based miRNA tools.
 
 In my spare time, I play sports (primarily Cricket and Football), listen to music and catch-up with my friends.
 
-<b style='color:red;'>I am always looking for research collaboration on interesting problems in deep learning. Feel free to email me!</b>
+<b style='color:red;'>I am always looking for research collaboration on fundamental problems in deep learning. Feel free to email me!</b>
