@@ -19,7 +19,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a doctoral candidate associated with the <a href="https://www.kclmmag.org/home">Motion Modelling & Analysis Group</a> at King's College London. My interests broadly lie in all aspects of deep learning. I am currently working on fairness in deep learning with special focus on medical imaging. Specifically, I am interested in <b>invariant representation learning for fairness</b>, <b>bias attribution using interpretability methods</b> and <b>fairness metrics</b>.
+I am a doctoral candidate associated with the <a href="https://www.kclmmag.org/home">Motion Modelling & Analysis Group</a> at King's College London supervised by <a href="https://www.kclmmag.org/team/andrew-king">Prof. Andrew King</a>, <a href="https://www.kcl.ac.uk/people/alexander-hammers">Prof. Alexander Hammers</a> and <a href="https://scholar.google.co.uk/citations?user=KbyHPpUAAAAJ&hl=en">Dr. Esther Puyol Antón</a>. My interests broadly lie in all aspects of deep learning. I am currently working on fairness in deep learning with special focus on medical imaging. Specifically, I am interested in <b>invariant representation learning for fairness</b>, <b>bias attribution using interpretability methods</b> and <b>fairness metrics</b>.
 
 Previously, I was a Research Engineer at GE Healthcare, Bangalore, India where I primarily worked on NLP approaches for timeline based report summarisation.
 
