@@ -19,6 +19,35 @@ strong {
   color: var(--global-text-color);
 }
 
+body {
+  font-family: var(--global-body-font);
+  text-rendering: optimizeLegibility;
+}
+
+p,
+li {
+  font-size: 1.02rem;
+  line-height: 1.78;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--global-heading-font);
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: clamp(2.5rem, 5vw, 4.4rem);
+  line-height: 0.96;
+}
+
+h2 {
+  font-size: clamp(1.65rem, 2.8vw, 2.25rem);
+  margin-top: 2.5rem;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
@@ -37,9 +66,12 @@ table {
 a,
 table.table a {
   color: var(--global-theme-color);
+  text-decoration-thickness: 0.08em;
+  text-underline-offset: 0.16em;
+  transition: color 0.18s ease, opacity 0.18s ease;
 
   &:hover {
-    color: var(--global-theme-color);
+    color: var(--global-hover-color);
     text-decoration: underline;
   }
 
@@ -85,6 +117,9 @@ blockquote {
 
 .card {
   background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 20px;
+  box-shadow: 0 14px 35px rgba(17, 27, 24, 0.06);
 
   img {
     width: 100%;
@@ -129,14 +164,6 @@ blockquote {
   }
 }
 
-.profile.float-right {
-  margin-left: 1rem;
-}
-
-.profile.float-left {
-  margin-right: 1rem;
-}
-
 @media (min-width: 576px) {
   .profile {
     width: 30%;
@@ -163,14 +190,97 @@ blockquote {
   }
 }
 
+.post {
+  .post-header {
+    margin-bottom: 2.25rem;
+    padding: 2rem 2rem 1.6rem;
+    background: linear-gradient(135deg, var(--global-accent-soft), transparent 70%);
+    border: 1px solid var(--global-divider-color);
+    border-radius: 28px;
+  }
+
+  .post-title {
+    margin-bottom: 0.5rem;
+  }
+
+  .desc {
+    max-width: 42rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.01em;
+    color: var(--global-text-color-light);
+  }
+}
+
+.about-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1.95fr) minmax(165px, 215px);
+  gap: 1.75rem;
+  align-items: start;
+  margin-bottom: 2rem;
+}
+
+.about-copy {
+  min-width: 0;
+  max-width: 54rem;
+
+  p {
+    font-size: 0.96rem;
+    line-height: 1.58;
+    margin-bottom: 1rem;
+  }
+
+  p:first-child {
+    margin-top: 0;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.about-profile {
+  align-self: start;
+  justify-self: end;
+  width: min(100%, 205px);
+  margin: 0;
+}
+
+.clearfix {
+  background: rgba(255, 255, 255, 0.55);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 24px;
+  padding: 1.6rem 1.6rem 1rem;
+  backdrop-filter: blur(8px);
+  position: relative;
+  z-index: 1;
+}
+
+.about-hero.clearfix {
+  padding: 1.75rem;
+}
+
+.about-profile figure {
+  margin: 0;
+}
+
+.news {
+  .table-responsive {
+    padding: 0.35rem 0.1rem;
+    border-top: 1px solid var(--global-divider-color);
+  }
+}
+
 
 // Navbar customization
 
 .navbar {
-  box-shadow: none;
+  box-shadow: 0 8px 30px rgba(15, 31, 27, 0.06);
   border-bottom: 1px solid var(--global-divider-color);
-  background-color: var(--global-bg-color);
-  opacity: 0.95;
+  background-color: rgba(255, 255, 255, 0.82);
+  backdrop-filter: blur(12px);
+  opacity: 1;
 }
 
 
@@ -183,10 +293,13 @@ blockquote {
 
   .navbar-brand {
     color: var(--global-text-color);
+    font-family: var(--global-heading-font);
+    font-size: 1.45rem;
   }
 
   .navbar-nav .nav-item .nav-link {
     color: var(--global-text-color);
+    font-weight: 600;
 
     &:hover {
       color: var(--global-hover-color);
@@ -220,6 +333,38 @@ blockquote {
         }
       }
     }
+  }
+}
+
+html[data-theme='dark'] {
+  .navbar {
+    background-color: rgba(22, 27, 26, 0.82);
+  }
+
+  .clearfix {
+    background: rgba(31, 39, 37, 0.72);
+  }
+}
+
+@media (max-width: 768px) {
+  .about-hero {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .about-profile {
+    justify-self: center;
+    width: min(100%, 200px);
+  }
+
+  .post .post-header {
+    padding: 1.5rem 1.25rem 1.15rem;
+    border-radius: 22px;
+  }
+
+  .clearfix {
+    padding: 1.2rem 1.1rem 0.8rem;
+    border-radius: 20px;
   }
 }
 

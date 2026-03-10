@@ -5,12 +5,17 @@
       value: Akshit Achara
     - name: Email
       value: acharaakshit@gmail.com
+    - name: Current Role
+      value: PhD Researcher, King's College London
     - name: Languages
       value: Hindi, English, Marwari (Speaking), Sanskrit (Novice)
 
 - title: Education
   type: time_table
   contents:
+    - title: PhD in Medical Imaging AI
+      institution: King's College London, London, UK
+      year: 2024 - present
     - title: MSc Mathematics
       institution: Birla Institute of Technology and Science, Pilani, India
       year: 2016 - 2020
@@ -27,7 +32,7 @@
   contents:
     - title: Research Engineer
       institution: GE Research, Bangalore, India
-      year: Oct 2022 - present
+      year: Oct 2022 - Sept 2024
       # description:
       #   - Description 1.
       #   - Description 2.

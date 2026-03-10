@@ -6,6 +6,8 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  background-image: var(--global-page-gradient);
+  font-family: var(--global-body-font);
 
   h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
@@ -30,6 +32,17 @@ body.sticky-bottom-footer {
 .profile {
   img {
     width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    object-position: center 28%;
+    border-radius: 22px;
+    border: 1px solid var(--global-divider-color);
+    box-shadow: 0 14px 30px rgba(15, 31, 27, 0.12);
+    filter: none;
+    image-rendering: -webkit-optimize-contrast;
   }
 }
 

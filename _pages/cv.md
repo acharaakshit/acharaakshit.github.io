@@ -4,6 +4,6 @@ permalink: /cv/
 title: cv
 nav: true
 nav_order: 4
-cv_pdf: Akshit_Resume.pdf
+cv_pdf: AkshitCV_26.pdf
 description: 
 ---

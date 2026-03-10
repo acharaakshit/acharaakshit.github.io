@@ -4,18 +4,23 @@
 
 :root {
   --global-bg-color: #{$white-color};
-  --global-code-bg-color: #{$code-bg-color-light};
-  --global-text-color: #{$black-color};
-  --global-text-color-light: #{$grey-color};
-  --global-theme-color: #{$purple-color};
-  --global-hover-color: #{$purple-color};
+  --global-code-bg-color: rgba(24, 90, 82, 0.08);
+  --global-text-color: #16211d;
+  --global-text-color-light: #5f6f69;
+  --global-theme-color: #185a52;
+  --global-hover-color: #b35c2e;
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-dark};
-  --global-footer-text-color: #{$grey-color-light};
+  --global-footer-bg-color: #16211d;
+  --global-footer-text-color: #eef2ef;
   --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #{$grey-color};
-  --global-divider-color: rgba(0,0,0,.1);
+  --global-distill-app-color: #5f6f69;
+  --global-divider-color: rgba(22, 33, 29, .12);
   --global-card-bg-color: #{$white-color};
+  --global-accent-soft: #edf4f1;
+  --global-accent-warm: #f3e5d7;
+  --global-page-gradient: radial-gradient(circle at top left, rgba(24, 90, 82, 0.08), transparent 34%), radial-gradient(circle at top right, rgba(179, 92, 46, 0.08), transparent 28%);
+  --global-heading-font: "Newsreader", Georgia, serif;
+  --global-body-font: "Manrope", "Segoe UI", sans-serif;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -48,19 +53,24 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #{$grey-color-dark};
+  --global-bg-color: #161b1a;
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #{$grey-color-light};
-  --global-text-color-light: #{$grey-color-light};
-  --global-theme-color: #{$cyan-color};
-  --global-hover-color: #{$cyan-color};
+  --global-text-color: #eef2ef;
+  --global-text-color-light: #c7d1cc;
+  --global-theme-color: #7fd0c2;
+  --global-hover-color: #efb184;
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #{$grey-color-light};
-  --global-footer-text-color: #{$grey-color-dark};
+  --global-footer-bg-color: #eef2ef;
+  --global-footer-text-color: #161b1a;
   --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #{$grey-color-light};
-  --global-divider-color: #424246;
-  --global-card-bg-color: #{$grey-900};
+  --global-distill-app-color: #c7d1cc;
+  --global-divider-color: rgba(255,255,255,.12);
+  --global-card-bg-color: #1f2725;
+  --global-accent-soft: #202927;
+  --global-accent-warm: #33271f;
+  --global-page-gradient: radial-gradient(circle at top left, rgba(127, 208, 194, 0.12), transparent 34%), radial-gradient(circle at top right, rgba(239, 177, 132, 0.10), transparent 28%);
+  --global-heading-font: "Newsreader", Georgia, serif;
+  --global-body-font: "Manrope", "Segoe UI", sans-serif;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
