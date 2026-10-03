@@ -3,24 +3,24 @@
  ******************************************************************************/
 
 :root {
-  --global-bg-color: #{$white-color};
-  --global-code-bg-color: rgba(24, 90, 82, 0.08);
-  --global-text-color: #16211d;
-  --global-text-color-light: #5f6f69;
-  --global-theme-color: #185a52;
-  --global-hover-color: #b35c2e;
+  --global-bg-color: #ffffff;
+  --global-code-bg-color: rgba(31, 75, 122, 0.08);
+  --global-text-color: #22242b;
+  --global-text-color-light: #666a73;
+  --global-theme-color: #1f4b7a;
+  --global-hover-color: #8c3d32;
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #16211d;
-  --global-footer-text-color: #eef2ef;
-  --global-footer-link-color: #{$white-color};
-  --global-distill-app-color: #5f6f69;
-  --global-divider-color: rgba(22, 33, 29, .12);
+  --global-footer-bg-color: #ffffff;
+  --global-footer-text-color: #4c4f57;
+  --global-footer-link-color: #1f4b7a;
+  --global-distill-app-color: #666a73;
+  --global-divider-color: rgba(34, 36, 43, .14);
   --global-card-bg-color: #{$white-color};
-  --global-accent-soft: #edf4f1;
-  --global-accent-warm: #f3e5d7;
-  --global-page-gradient: radial-gradient(circle at top left, rgba(24, 90, 82, 0.08), transparent 34%), radial-gradient(circle at top right, rgba(179, 92, 46, 0.08), transparent 28%);
-  --global-heading-font: "Newsreader", Georgia, serif;
-  --global-body-font: "Manrope", "Segoe UI", sans-serif;
+  --global-accent-soft: #eef2f5;
+  --global-accent-warm: #f4f4f2;
+  --global-page-gradient: none;
+  --global-heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  --global-body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;
@@ -53,24 +53,24 @@
 }
 
 html[data-theme='dark'] {
-  --global-bg-color: #161b1a;
+  --global-bg-color: #17191d;
   --global-code-bg-color: #{$code-bg-color-dark};
-  --global-text-color: #eef2ef;
-  --global-text-color-light: #c7d1cc;
-  --global-theme-color: #7fd0c2;
-  --global-hover-color: #efb184;
+  --global-text-color: #eeece6;
+  --global-text-color-light: #b7b8ba;
+  --global-theme-color: #8eb5dd;
+  --global-hover-color: #d79a8e;
   --global-hover-text-color: #{$white-color};
-  --global-footer-bg-color: #eef2ef;
-  --global-footer-text-color: #161b1a;
-  --global-footer-link-color: #{$black-color};
-  --global-distill-app-color: #c7d1cc;
+  --global-footer-bg-color: #111216;
+  --global-footer-text-color: #d8d7d2;
+  --global-footer-link-color: #8eb5dd;
+  --global-distill-app-color: #b7b8ba;
   --global-divider-color: rgba(255,255,255,.12);
-  --global-card-bg-color: #1f2725;
-  --global-accent-soft: #202927;
-  --global-accent-warm: #33271f;
-  --global-page-gradient: radial-gradient(circle at top left, rgba(127, 208, 194, 0.12), transparent 34%), radial-gradient(circle at top right, rgba(239, 177, 132, 0.10), transparent 28%);
-  --global-heading-font: "Newsreader", Georgia, serif;
-  --global-body-font: "Manrope", "Segoe UI", sans-serif;
+  --global-card-bg-color: #202227;
+  --global-accent-soft: #22272c;
+  --global-accent-warm: #2e2725;
+  --global-page-gradient: none;
+  --global-heading-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  --global-body-font: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
 
   --global-tip-block: #42b983;
   --global-tip-block-bg: #e2f5ec;

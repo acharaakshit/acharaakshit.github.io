@@ -6,97 +6,77 @@
     - name: Email
       value: acharaakshit@gmail.com
     - name: Current Role
-      value: PhD Researcher, King's College London
-    - name: Languages
-      value: Hindi, English, Marwari (Speaking), Sanskrit (Novice)
-
-- title: Education
-  type: time_table
-  contents:
-    - title: PhD in Medical Imaging AI
-      institution: King's College London, London, UK
-      year: 2024 - present
-    - title: MSc Mathematics
-      institution: Birla Institute of Technology and Science, Pilani, India
-      year: 2016 - 2020
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
+      value: PhD Student, King's College London
+    - name: Research Areas
+      value: Computer vision, representation learning, shortcut learning, interpretability
 
 - title: Experience
   type: time_table
   contents:
-    - title: Research Engineer
-      institution: GE Research, Bangalore, India
-      year: Oct 2022 - Sept 2024
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
-    - title: Edison Engineer
-      institution: GE Research, Bangalore, India
-      year: Apr 2021 - Sept 2022
-      # description:
-      #   - Description 1.
-      #   - Description 2.
+    - title: PhD Student
+      institution: King's College London
+      location: London, UK
+      year: Oct 2024 – present
+      description:
+        - Investigate how learned models form, align, and misuse predictive representations, with emphasis on failure modes hidden under aggregate metrics for medical image segmentation.
+        - Develop testable approaches for localising shortcut reliance in biased vision models.
+        - Study how demographic attributes become encoded in medical imaging models and how this affects robustness, fairness, and generalisation.
+    - title: Research Engineer, Applied AI Research
+      institution: GE Research / GE Healthcare
+      location: Bangalore, India
+      year: Oct 2020 – Jul 2024
+      description:
+        - Developed vision models for structural-defect detection, including the prediction of near-invisible cracks that were difficult to identify manually.
+        - Built patient-level representations for longitudinal oncology records to support summarisation, family-history extraction, entity linking, structured information extraction, and clinical-trial matching.
+        - Led development of an end-to-end clinical-trial matching system spanning trial ingestion, eligibility structuring, patient entity linking, and ranking.
+        - Represented GE Healthcare at G20 events in India, presenting applied AI initiatives to cross-stakeholder audiences.
 
-    - title: Edison Engineer
-      institution: GE Healthcare, Bangalore, India
-      year: Oct 2020 - Mar 2021
-
-- title: Short-Terms
+- title: Education
   type: time_table
   contents:
-    - title: <a href="https://summerofcode.withgoogle.com/archive/2020/projects/6235019934171136">GSoC</a> Contributor
-      institution: Remote
-      year: 2020
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
-    - title: Research Assistant
-      institution: Technical University of Munich, Germany
-      year: 2019
-      # description:
-      #   - Description 1.
-      #   - Description 2.
-      #   - title: Description 3.
-      #     contents:
-      #       - Sub-description 1.
-      #       - Sub-description 2.
-    - title: Summer Intern
-      institution: GE Healthcare, Bangalore, India
-      year: 2019
-    - title: Summer Intern
-      institution: GE Healthcare, Bangalore, India
-      year: 2018
-      # description:
-      #   - Description 1.
-      #   - Description 2.
+    - title: PhD, Biomedical Engineering and Imaging Sciences
+      institution: King's College London
+      location: London, UK
+      year: Oct 2024 – present
+    - title: Integrated M.Sc. Mathematics
+      institution: Birla Institute of Technology and Science (BITS Pilani)
+      location: Pilani, India
+      year: Aug 2016 – Jul 2020
 
-# - title: Academic Interests
-#   type: nested_list
-  # contents:
-  #   - title: Topic 1.
-  #     items: 
-  #       - Description 1.
-  #       - Description 2.
-  #   - title: Topic 2.
-  #     items:
-  #       - Description 1.
-  #       - Description 2.
+- title: Selected Publications
+  type: list
+  contents:
+    - <b>Achara, A.</b>, Manickam, V., Day, T., Puyol Anton, E., Hammers, A., and King, A. P. <i>Discovery and Spatial Characterisation of Multiple Shortcut Groups for Auditing Vision Model Bias.</i> arXiv, 2026.
+    - Gaintseva, T., <b>Achara, A.</b>, Slabaugh, G., Deng, J., and Elezi, I. <i>EquiSteer—Cross-Attention Steering Towards a Fairer Text-Guided Image Generation.</i> ECCV, 2026.
+    - <b>Achara, A.</b>, Gaintseva, T., Mahaut, M., Chakraborty, P., Johansson, V. S., Barsbey, M., Rodolà, E., and Crisostomi, D. <i>Multi-Way Representation Alignment.</i> ICML 2026; ReAlign at ICLR 2026.
+    - Avci, M. Y.*, <b>Achara, A.*</b>, King, A., and Cardoso, J., for the Alzheimer's Disease Neuroimaging Initiative. <i>Understanding Sources of Demographic Predictability in Brain MRI via Disentangling Anatomy and Contrast.</i> FAIMI at MICCAI, 2026.
+    - <b>Achara, A.</b>, Yathathugoda, Y., Byrne, N., Antonelli, M., Puyol Anton, E., Hammers, A., and King, A. P. <i>Right Regions, Wrong Labels—Semantic Label Flips in Segmentation under Correlation Shift.</i> CAO at ICLR, 2026.
+    - <b>Achara, A.</b>, Triantafillou, P., Puyol-Antón, E., Hammers, A., and King, A. P. <i>Localising Shortcut Learning in Pixel Space via Ordinal Scoring Correlations for Attribution Representations (OSCAR).</i> arXiv, 2025.
+    - <b>Achara, A.</b>, Puyol Anton, E., Hammers, A., and King, A. P. <i>Invisible Attributes, Visible Biases—Exploring Demographic Shortcuts in MRI-based Alzheimer's Disease Classification.</i> FAIMI at MICCAI, 2025.
+    - <b>Achara, A.</b> and Chhabra, A. <i>Watching the AI Watchdogs—A Fairness and Robustness Analysis of AI Safety Moderation Classifiers.</i> NAACL, 2025.
+    - <b>Achara, A.</b>, Sasidharan, S., and N, G. <i>Efficient Biomedical Entity Linking—Clinical Text Standardisation with Low-Resource Techniques.</i> BioNLP at ACL, 2024.
 
-# - title: Other Interests
-#   type: list
-#   contents:
-#     - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+- title: Patents
+  type: list
+  contents:
+    - Achara, A., Goravar, S., Sasidharan, S., and Kanamarlapudi, A. <i>Clinical context-centric natural language processing solutions.</i> U.S. Patent No. 12,632,671, issued May 19, 2026.
+    - Sasidharan, S., Achara, A., Kanamarlapudi, A., Goravar, S., and Bhoi, K. <i>Systems and methods for intelligent medical editors.</i> U.S. Patent Application 18/906,528, 2025.
+    - Ghose, S., Sasidharan, S., Cho, S., Achara, A., Mullick, R., Kanamarlapudi, A., Ginty, F., Bhardwaj, A. R., Mani, S., and Sarachan, B. <i>Natural language based clinical recommendation system.</i> U.S. Patent Application 18/468,593, 2025.
+
+- title: Awards and Service
+  type: list
+  contents:
+    - UKRI-funded DRIVE-Health CDT Scholarship, King's College London, 2024–2028.
+    - Best Team Award, LOGML 2025.
+    - Top 10% Reviewer, NeurIPS 2025.
+    - "Reviewer: NeurIPS (2024, 2025, 2026), ICML (2025), AISTATS (2026)."
+
+- title: Skills
+  type: map
+  contents:
+    - name: Programming
+      value: Python, C, C++, R, Java
+    - name: Frameworks
+      value: PyTorch, Lightning, Transformers
+    - name: Research
+      value: Computer vision, representation learning, shortcut learning, interpretability

@@ -2,8 +2,8 @@
 layout: cv
 permalink: /cv/
 title: cv
-nav: true
+nav: false
 nav_order: 4
-cv_pdf: AkshitCV_26.pdf
+cv_pdf: Akshit_CV26.pdf
 description: 
 ---
